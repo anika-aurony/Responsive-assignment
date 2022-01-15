@@ -77,3 +77,49 @@ footer{
     text-align: center;
     padding: 30px;
 }
+/*--Mobile Device---*/
+@media only screen and (max-width:688px) {
+    .Influencer{
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        justify-content: start
+    
+        
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .course{
+        width: 100%;
+    }
+    footer{
+        width: 140%;
+    }
+    
+}
+/*--Tablet Device---*/
+@media only screen and (min-width:688px) and (max-width:992px){
+    .Influencer{
+        
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        
+        justify-content: start
+    
+        
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .course{
+        width: 100%;
+    }
+    footer{
+        width: 140%;
+    }    
+
+}
