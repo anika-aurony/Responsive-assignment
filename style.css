@@ -1,0 +1,79 @@
+body{
+    padding-left: 50px;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+}
+.anchor-first{
+    text-decoration: none;
+    height: 20px;
+    width: 40px;
+    background-color: rgb(201, 50, 108);
+    color: whitesmoke;
+    padding: 8px;
+    border-radius: 20px;
+}
+.second-part{
+    transition: transform 10ms ease 1s;
+    
+}
+.second-part:hover{
+    transform: scale(1.5) ;
+    
+}
+header{
+    padding-left: 80px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 24px;
+
+}
+.course{
+    justify-content: center;
+    width: 80%;
+    background-color: rgba(233, 229, 229, 0.877);
+    padding: 3%;
+    border-radius: 3%;
+}
+.fas{
+    padding-left: 10px;
+}
+.fa-star.filled{
+    color: sandybrown;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+}
+.second-anchor{
+    text-decoration: none;
+    color: rgb(153, 51, 131);
+    padding-bottom: 0px;
+    background-color: white;
+    align-items:center;
+    
+}
+.last-part{
+    border: solid 2px black;
+    width: 300px;
+    height: 290px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5%;
+}
+footer{
+    background-color: rgb(1, 1, 59);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
